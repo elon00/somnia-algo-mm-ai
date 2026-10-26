@@ -1,0 +1,9 @@
+[package]
+name = "somnia-algo-mm-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Reinforcement learning market-maker spread optimizer"
+license = "MIT"
+
+[dependencies]

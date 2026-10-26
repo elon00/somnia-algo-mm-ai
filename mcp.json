@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "somnia-algo-mm-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Somnia Network",
+        "PROJECT_TICKER": "SOMAMM"
+      },
+      "tools": [
+        {
+          "name": "verify_somamm_invariants",
+          "description": "Verifies deterministic invariants for Somnia Algo MM AI on Somnia Network."
+        },
+        {
+          "name": "execute_somamm_action",
+          "description": "Executes authenticated AI state transition."
+        }
+      ]
+    }
+  }
+}
